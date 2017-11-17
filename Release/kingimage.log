@@ -1,0 +1,61 @@
+﻿  kingimageView.cpp
+kingimageView.cpp(55): warning C4552: '~': operator has no effect; expected operator with side-effect
+kingimageView.cpp(447): warning C4018: '<': signed/unsigned mismatch
+kingimageView.cpp(526): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+kingimageView.cpp(526): warning C4305: 'initializing': truncation from 'double' to 'float'
+kingimageView.cpp(539): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+kingimageView.cpp(546): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+kingimageView.cpp(559): warning C4018: '<': signed/unsigned mismatch
+kingimageView.cpp(564): warning C4018: '<': signed/unsigned mismatch
+kingimageView.cpp(568): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(590): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(599): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+kingimageView.cpp(623): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(635): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(705): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(723): warning C4101: 'squareFilter': unreferenced local variable
+kingimageView.cpp(724): warning C4101: 'crossFilter': unreferenced local variable
+kingimageView.cpp(721): warning C4101: 'medFiltered': unreferenced local variable
+kingimageView.cpp(841): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+kingimageView.cpp(842): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+kingimageView.cpp(891): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+kingimageView.cpp(872): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _cprintf. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\conio.h(471): note: see declaration of 'cprintf'
+kingimageView.cpp(935): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+kingimageView.cpp(936): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+kingimageView.cpp(987): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+kingimageView.cpp(968): warning C4996: 'cprintf': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _cprintf. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\conio.h(471): note: see declaration of 'cprintf'
+kingimageView.cpp(1077): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1082): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1161): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1169): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1170): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1171): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1232): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1261): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1262): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1263): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1284): warning C4244: '=': conversion from 'double' to 'BYTE', possible loss of data
+kingimageView.cpp(1285): warning C4244: '=': conversion from 'double' to 'BYTE', possible loss of data
+kingimageView.cpp(1286): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1287): warning C4018: '<': signed/unsigned mismatch
+kingimageView.cpp(1299): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1301): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1306): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1309): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1315): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1321): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1327): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1328): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1329): warning C4244: '=': conversion from 'float' to 'BYTE', possible loss of data
+kingimageView.cpp(1361): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+kingimageView.cpp(1363): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+KINGJPG.obj : error LNK2019: unresolved external symbol "int __cdecl jpeg_IDCT(short *,short *)" (?jpeg_IDCT@@YAHPAF0@Z) referenced in function "public: int __thiscall KINGJPG::get_pic(void)" (?get_pic@KINGJPG@@QAEHXZ)
+KINGJPG.obj : error LNK2019: unresolved external symbol "int __cdecl jpeg_DCT(short *,short *)" (?jpeg_DCT@@YAHPAF0@Z) referenced in function "public: int __thiscall KINGJPG::codejpg(unsigned char *,int,int *)" (?codejpg@KINGJPG@@QAEHPAEHPAH@Z)
+KINGJPG.obj : error LNK2019: unresolved external symbol "void __cdecl copy_byte(unsigned char *,unsigned char *,int)" (?copy_byte@@YAXPAE0H@Z) referenced in function "public: virtual int __thiscall KINGJPG::getpicture(class CFile *)" (?getpicture@KINGJPG@@UAEHPAVCFile@@@Z)
+KINGJPG.obj : error LNK2019: unresolved external symbol "int __cdecl scale_pic(short *,int,int,short *,int,int,unsigned char)" (?scale_pic@@YAHPAFHH0HHE@Z) referenced in function "public: int __thiscall KINGJPG::color(int,int,short *)" (?color@KINGJPG@@QAEHHHPAF@Z)
+KINGJPG.obj : error LNK2019: unresolved external symbol "int __cdecl scale_pic2(short *,int,int,short *,int,int,unsigned char)" (?scale_pic2@@YAHPAFHH0HHE@Z) referenced in function "public: int __thiscall KINGJPG::anti_color(int,int,short *)" (?anti_color@KINGJPG@@QAEHHHPAF@Z)
+MainFrm.obj : error LNK2019: unresolved external symbol "int __cdecl JPEGINIT(int,int)" (?JPEGINIT@@YAHHH@Z) referenced in function "public: __thiscall CMainFrame::CMainFrame(void)" (??0CMainFrame@@QAE@XZ)
+MainFrm.obj : error LNK2019: unresolved external symbol "int __cdecl JPEGEXIT(void)" (?JPEGEXIT@@YAHXZ) referenced in function "public: virtual __thiscall CMainFrame::~CMainFrame(void)" (??1CMainFrame@@UAE@XZ)
+.\Release/kingimage.exe : fatal error LNK1120: 7 unresolved externals
